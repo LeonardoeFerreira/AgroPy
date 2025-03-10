@@ -1,0 +1,29 @@
+300 epochs completed in 5.318 hours.
+Optimizer stripped from runs\detect\train4\weights\last.pt, 87.7MB
+
+300 epochs completed in 5.318 hours.
+Optimizer stripped from runs\detect\train4\weights\last.pt, 87.7MB
+Optimizer stripped from runs\detect\train4\weights\best.pt, 87.7MB
+300 epochs completed in 5.318 hours.
+Optimizer stripped from runs\detect\train4\weights\last.pt, 87.7MB
+Optimizer stripped from runs\detect\train4\weights\best.pt, 87.7MB
+Optimizer stripped from runs\detect\train4\weights\last.pt, 87.7MB
+Optimizer stripped from runs\detect\train4\weights\best.pt, 87.7MB
+
+Optimizer stripped from runs\detect\train4\weights\best.pt, 87.7MB
+
+
+Validating runs\detect\train4\weights\best.pt...
+Validating runs\detect\train4\weights\best.pt...
+Ultralytics 8.3.79 🚀 Python-3.12.7 torch-2.6.0+cu118 CPU (AMD Ryzen 5 7535HS with Radeon Graphics)
+Model summary (fused): 112 layers, 43,611,234 parameters, 0 gradients, 164.8 GFLOPs
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:13<00:00,  6.74s/it]
+                   all         22        307      0.958      0.964      0.986      0.897
+              ferrugem          6         74      0.911      0.932      0.985      0.923
+        folha saudavel          4         81      0.989      0.988      0.986      0.963
+       mancha barrenta          1         12      0.956          1      0.995      0.995
+       mancha castanha          4         93      0.964      0.862      0.964      0.713
+           mancha em v          4         28      0.954          1      0.994      0.795
+          mancha preta          1         19      0.973          1      0.995      0.995
+Speed: 1.3ms preprocess, 548.5ms inference, 0.0ms loss, 0.5ms postprocess per image
+Results saved to runs\detect\train4
